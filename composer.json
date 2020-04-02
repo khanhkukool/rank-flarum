@@ -1,0 +1,15 @@
+{
+  "name": "khanhkukool/rank-flarum",
+  "type": "library",
+  "description": "rank for users",
+  "homepage": "http://teentin.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Duc Khanh",
+      "email": "khanhk99.tn@gmail.com",
+      "homepage": "http://teentin.com",
+      "role": "Developer"
+    }
+  ]
+}
