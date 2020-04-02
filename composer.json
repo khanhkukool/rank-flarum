@@ -1,15 +1,29 @@
 {
   "name": "khanhkukool/rank-flarum",
-  "type": "library",
+  "type": "flarum-extension",
   "description": "rank for users",
-  "homepage": "http://teentin.com",
   "license": "MIT",
   "authors": [
     {
       "name": "Duc Khanh",
       "email": "khanhk99.tn@gmail.com",
-      "homepage": "http://teentin.com",
       "role": "Developer"
     }
-  ]
+  ],
+  "require": {
+    "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.13"
+  },
+  "autoload": {
+    "psr-4": {"Khanhkukool\\Rank\\": "src/"}
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Rank",
+      "icon": {
+        "name": "fab fa-hackerrank",
+        "backgroundColor": "#ddd",
+        "color": "#000"
+      }
+    }
+  }
 }
